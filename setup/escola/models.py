@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Alunos(models.Model):
+class Aluno(models.Model):
     nome = models.CharField(max_length=60)
     rg = models.CharField(max_length=9)
     cpf = models.CharField(max_length=11)
